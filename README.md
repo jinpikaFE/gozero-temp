@@ -1,5 +1,7 @@
 # 1
 
+[操作指南](https://learnku.com/articles/64643)
+
 ## 服务创建步骤
 
 - 创建/service/product/model 文件夹并创建product.sql 文件
@@ -164,3 +166,7 @@ service Product {
     rpc Detail(DetailRequest) returns(DetailResponse);
 }
 ```
+
+## 服务启动
+
+go run user.go -f etc/user.dev.yaml 指定对应的配置文件
