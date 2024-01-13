@@ -5,6 +5,7 @@ go 1.21.5
 require (
 	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/zeromicro/go-zero v1.6.1
+	github.com/zeromicro/x v0.0.0-20230424055333-01c7fb9548d4
 	golang.org/x/crypto v0.16.0
 	google.golang.org/grpc v1.60.0
 	google.golang.org/protobuf v1.31.1-0.20231027082548-f4a6c1f6e5c1
